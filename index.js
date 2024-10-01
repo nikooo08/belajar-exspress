@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
             isi: "Isi Berita 2"
         },
     ];
-    res.render('home', { title: 'Halaman Home', berita, layout: 'home' });
+    res.render('home', { title: 'Halaman Home', berita, layout: 'main' });
 });
 
 // route / about
